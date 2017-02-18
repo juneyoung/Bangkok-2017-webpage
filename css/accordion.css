@@ -1,0 +1,23 @@
+a.accordion_btn {
+	text-decoration: none;
+}
+
+.accordion_cont {
+	display: none;
+}
+
+.accordion_cont>.on {
+	display: block;
+    -webkit-transition: max-height 0.5s ease-in-out;
+    -moz-transition: max-height 0.5s ease-in-out;
+    -o-transition: max-height 0.5s ease-in-out;
+    transition: max-height 0.5s ease-in-out;
+}
+
+.accordion_cont>.off {
+	display: none;
+    -webkit-transition: max-height 0.5s ease-in-out;
+    -moz-transition: max-height 0.5s ease-in-out;
+    -o-transition: max-height 0.5s ease-in-out;
+    transition: max-height 0.5s ease-in-out;
+}

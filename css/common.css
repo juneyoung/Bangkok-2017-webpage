@@ -1,0 +1,86 @@
+
+/*
+===============================================
+===============================================
+================== HEADER =====================
+===============================================
+===============================================
+*/
+
+.description {
+	display : none;
+	/*visibility: hidden;*/
+}
+
+/*
+===============================================
+===============================================
+================= CONTENT =====================
+===============================================
+===============================================
+*/
+
+div.top-banner {
+	text-align: center;
+	width: 100%;
+	background-color: black;
+	color: white; 
+	height: 200px;
+	overflow-y: auto;
+}
+div.top-banner>div.banner-title {
+	padding-top: 80px;
+	font-size: 3em;
+	font-style: italic;
+}
+
+div.top-banner>div.banner-content {
+	position: relative;
+}
+
+div.top-banner>div.banner-content>div.sub-buttons {
+	margin-top: -40px;
+	text-align: left;
+	float: right;
+	padding-right: 50px;
+	font-size: 0.8em;
+}
+
+ul{
+	list-style-type: none;
+}
+
+
+.content {
+	width : inherit;
+	padding: 10%;
+	margin : 10%;	
+
+	overflow: auto;
+	background: grey;
+	color: white;
+}
+
+
+/*
+===============================================
+===============================================
+================== FOOTER =====================
+===============================================
+===============================================
+*/
+
+footer {
+	text-align: center;
+}
+
+footer>div.footer-content {
+	min-height: 200px;
+	overflow-y: auto;
+	background-color: black;
+	color: white; 
+}
+
+footer>div.footer-content>div.meta-info {
+	padding-top: 150px;
+}
