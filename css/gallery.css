@@ -1,0 +1,23 @@
+div.image_gallery {
+	background : orange;
+}
+
+div.image_gallery>div.gallery_slide {
+	/*overflow-x: auto;*/
+}
+
+div.image_gallery img {
+	width: 250px;
+	height: auto;
+}
+
+div.image_gallery li {
+    margin: 0 5 0 0;
+    padding: 0 0 0 0;
+    border : 0;
+    float: left;
+}
+
+div.image_gallery li>a {
+    cursor: pointer;
+}

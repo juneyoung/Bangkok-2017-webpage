@@ -1,3 +1,7 @@
+// 잔여 
+// 1. Slide 처리
+// 2. Accordion 스왑
+// 3. 시작시에 root 만 설정하고 내용을 array 로 밀어 넣으면 DOM 을 생성할 수 있도록 
 var Accordion = {
 	Naming : {
 		Button : 'accordion_btn'
